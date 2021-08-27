@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	margin: auto;
+	width: 100%
+}
+.header{
+    width: 100%;
+    height: 150px;
+}
+.header h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:50px;
+}
+.header ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 30px;
+    padding:20px;
+    font-size: 25px;
+    /* padding-left: 100px; */
+}
+.header img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin: 10px 30px 20px 0px;
+    
+}
+a{
+    text-decoration: none;
+}
+.anh img{
+    width: 100%;
+    height: 500px;
+}
+.content{
+    width: 80%;
+    height: 1070px;
+    margin-left: 10%;
+    /* display: flex; */
+    display: inline-flex;
+    
+    
+}
+.content .trai{
+    width: 385px;
+    height: 1000px;
+    margin-top: 50px;
+}
+.content .trai img{
+    width: 100%;
+    height: 1000px;
+}
+.content .giua{
+    margin: 30px;
+    width: 385px;
+    height: 1000px;
+    margin-top: 50px;
+
+}
+
+.giua .tren{
+    width: 100%;
+    height: 485px;
+}
+
+.giua .duoi{
+    width: 100%;
+    height: 485px;
+    margin-top: 30px;
+}
+.content .giua img{
+    width: 100%;
+    height: 485px;
+}
+.content .phai{
+    width: 385px;
+    height: 1000px;
+    margin-top: 50px;
+}
+.content .phai img{
+    width: 100%;
+    height: 1000px;
+}
+hr{
+    height:2px;
+    color:gray;
+    background-color:gray;
+    margin-top: 20px;
+}
+.danhmucsanpham{
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    display: inline-flex;
+}
+.danhmucsanpham .tramcai{
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.danhmucsanpham .bongtai{
+    margin: 30px;
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.danhmucsanpham .vongco{
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.danhmucsanpham .nhan{
+   margin-left: 31px; 
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.danhmucsanpham img{
+    width: 100%;
+    height: 100%;
+}
+.danhmucsanpham button{
+    font-size: 30px;
+    margin-left: 75px;
+}
+.hotdeal{
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    display: inline-flex;
+}
+.hotdeal .nhanvong{
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.hotdeal .bongtaicaocap{
+    margin: 30px;
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.hotdeal .vongtay{
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.hotdeal .bongtaicaocap1{
+    margin-left: 31px; 
+    width: 281px;
+    height: 350px;
+    margin-top: 50px;
+}
+.hotdeal img{
+    width: 100%;
+    height: 250px;
+}
+.hotdeal  button{
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+b{
+    font-size: 20px;
+}
+.gioithieucuahang{
+    background: url(../buoi3/image/14.jpg);
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+}
+.gioithieucuahang h1{
+    padding-top: 170px;
+    font-size: 40px;
+}
+.gioithieucuahang p{
+    font-size: 20px;
+}
+.tintuckhuyenmai{
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.tintuckhuyenmai .daychuyen{
+    width: 385px;
+    height: 300px;
+    margin-top: 50px;  
+}
+.tintuckhuyenmai .luadaychuyen{
+    width: 385px;
+    height: 300px;
+    /* margin: 30px; */
+    margin-top: 50px;
+}
+.tintuckhuyenmai .phongcach{
+    width: 385px;
+    height: 300px;
+    margin-top: 50px;
+}
+.tintuckhuyenmai img{
+    width: 100%;
+}
+.tintuckhuyenmai a,p{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.tintuckhuyenmai button{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.nhungcaunoi{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+}
+.nhungcaunoi img{
+    width: 100%;
+    height: 400px;
+}
+.mathang{
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.mathang .moinhat{
+    width: 385px;
+    height: 550px;
+    margin-top: 50px;
+}
+.mathang .moinhat .nhan{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .moinhat .bongtai{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .moinhat img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mathang .moinhat p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.mathang .moinhat button,b{
+    margin: 5px 0px 10px 20px;
+
+}
+
+.mathang .noibat{
+    width: 385px;
+    height: 550px;
+    margin-top: 50px;
+}
+.mathang .noibat .nhan{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .noibat .bongtai{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .noibat .vongtay1{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .noibat img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mathang .noibat p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mathang .banchay{
+    width: 385px;
+    height: 550px;
+    margin-top: 50px;
+}
+.mathang .banchay .nhan{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .banchay .bongtai{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .banchay .vongtay1{
+    width: 385px;
+    height: 150px;
+    display: flex;
+    
+}
+.mathang .banchay img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mathang .banchay p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dangkikhuyenmai{
+    background-color: grey;
+    width: 80%;
+    height: 444px;
+    margin-left: 10%;
+}
+.dangkikhuyenmai h1{
+    padding-top: 80px;
+    margin: 50px;
+}
+.dangkikhuyenmai input{
+    margin-top: 50px;
+    font-size: 30px;
+    border: 1px solid;
+}
+.dangkikhuyenmai button{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.footer{
+    width: 100%;
+}
+.diachi{
+
+    display: flex;
+    margin-left: 465px;
+    margin-top: 20px;
+}
+.diachi a{
+    margin-left: 20px;
+}
+.footer .icon{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.footer .icon img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    
+}
+.footer .copyright{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.footer .copyright img{
+    width: 40px;
+    height: 40px;
+    margin-left: 500px;
+}
+ .footer .copyright p{
+    margin-top: 10px;
+} 
